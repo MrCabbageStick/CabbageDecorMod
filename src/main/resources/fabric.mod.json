@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "cabbagedecor",
+	"version": "${version}",
+	"name": "CabbageDecor",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cabbagedecor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mrcabbagestick.cabbagedecor.CabbageDecor"
+		],
+		"client": [
+			"mrcabbagestick.cabbagedecor.CabbageDecorClient"
+		]
+	},
+	"mixins": [
+		"cabbagedecor.mixins.json",
+		{
+			"config": "cabbagedecor.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
