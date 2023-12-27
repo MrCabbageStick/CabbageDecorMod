@@ -3,7 +3,7 @@
 	"package": "mrcabbagestick.cabbagedecor.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+      "CabbageDecorClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
