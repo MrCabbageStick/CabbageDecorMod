@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "cabbagedecor",
 	"version": "${version}",
-	"name": "CabbageDecor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Cabbage Decor",
+	"description": "Just a few things I wanted to add to the game",
 	"authors": [
-		"Me!"
+		"MrCabbageStick"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
